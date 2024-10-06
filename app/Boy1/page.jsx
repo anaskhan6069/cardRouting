@@ -1,7 +1,7 @@
 "use client"
 
 
-import Fullprofile from "/Components/fullprofile"
+import Fullprofile from "/Components/Fullprofile"
 import React from "react"
 
 
