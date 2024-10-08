@@ -798,4 +798,25 @@ body {
     z-index: 1;
   }
 
+  .boy1-profile-container .col2 .social .wrapper {
+    
+    opacity: 0;
+    display: none;
+  }
+
+  .boy1-profile-container .col2 .social .social-icon:hover {
+    /* width: 25px;
+    height: 25px; */
+    transform: none;
+  }
+  .boy1-profile-container .col2 .social .social-icon:active {
+    transform: translateY(10px);
+  }
+
+  
+.col2 .back-icon-wrapper {
+  opacity: 0;
+  display: none;
+}
+
 }

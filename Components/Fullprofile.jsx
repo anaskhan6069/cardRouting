@@ -32,6 +32,7 @@ const Fullprofile = (props) => {
             connectIcon.style.color = "white";
             connectIconWrapper.style.background = "black";
             setIsConnect(true);
+
         }, 2000);
         setConnectBtn("Connecting...");
         setIsConnect(false);
