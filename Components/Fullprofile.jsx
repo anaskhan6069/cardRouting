@@ -4,7 +4,7 @@
 import React, { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faA, faUserTie } from "@fortawesome/free-solid-svg-icons"
-import { faLinkedinIn, faFacebookF, faTwitter, faSquareInstagram } from "@fortawesome/free-brands-svg-icons"
+import { faLinkedinIn, faFacebookF, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons"
 import { faStar, faStarHalfStroke, faAt, faLocationArrow, faArrowLeft} from "@fortawesome/free-solid-svg-icons"
 import { faStar as starRegular } from "@fortawesome/free-regular-svg-icons"
 import Link from "next/link"
@@ -45,7 +45,7 @@ const Fullprofile = (props) => {
                         <img src={props.fullprofile} alt="Full profile" />
                     </div>
                     <div className="full-info">
-                        <h1>{props.username} <FontAwesomeIcon icon={faAt} className="at-icon" />
+                        <h1 className="user-name">{props.username} <FontAwesomeIcon icon={faAt} className="at-icon" />
                             <div className="wrapper">imanask4@gmail.com</div>
                         </h1>
 
@@ -70,24 +70,24 @@ const Fullprofile = (props) => {
                     <div className="social">
 
                         <div className="social-icon linkedin">
-                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><img src="/icon/linkedin.png" alt="linkedin icon" /></a>
+                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="linkedin-icon social-icon-icon"/></a>
                         </div>
                         <div className="wrapper linkedin-wrapper">LinkedIn
                         </div>
 
 
                         <div className="social-icon instagram">
-                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><img src="/icon/instagram.png" alt="instagram icon" /></a>
+                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="insta-icon social-icon-icon"/></a>
                         </div>
                         <div className="wrapper instagram-wrapper">Instagram</div>
 
                         <div className="social-icon facebook">
-                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><img src="/icon/facebook.png" alt="facebook icon" /></a>
+                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><FontAwesomeIcon icon={faFacebookF} className="facebook-icon social-icon-icon"/></a>
                         </div>
                         <div className="wrapper facebook-wrapper">Facebook</div>
 
                         <div className="social-icon twitter">
-                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><img src="/icon/twitter.png" alt="twitter icon" /></a>
+                            <a href="https://www.linkedin.com/in/anas-khan-685007242/" target="_blank"><FontAwesomeIcon icon={faTwitter} className="twitter-icon social-icon-icon"/></a>
                         </div>
                         <div className="wrapper twitter-wrapper">Twitter</div>
 
